@@ -137,11 +137,11 @@ namespace NUnit.Gui.Tests
                 Assert.Fail("Intentional failure");
             }
 
-            [Test]
-            public void WarningTest()
-            {
-                Assert.Warn("Warning Message");
-            }
+            //[Test]
+            //public void WarningTest()
+            //{
+            //    Assert.Warn("Warning Message");
+            //}
 
             [Test, Property("TargetMethod", "SomeClassName"), Property("Size", 5), /*Property("TargetType", typeof( System.Threading.Thread ))*/]
             public void TestWithManyProperties()
